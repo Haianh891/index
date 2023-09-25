@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Web-demo3</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div>
+            <div class="side-nav">
+                <ul>
+                    <li><a href="index.html" class="a"><i class="bi bi-house"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61551646509754" class="a"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/apads.werbung/" class="a"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <section id ="nhat" class="dau">
+            <nav>
+                <a href="index.html"><img src="./image/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navlinks">
+                   <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="" class="a">HOME</a></li>
+                        <li><a href="" class="a">LATEST DESIGN</a></li>
+                        <li><a href="" class="a">ABOUT US</a></li>
+                        <li><a href="" class="a">CONTACT</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61551646509754" class="a"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/apads.werbung/" class="a"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1 class="a">We Turn Your Ideas Into <span class="c">Designs</span></h1>
+            <P class="a">Every One of Us Loves Something Different. So, Explore the World Through the Lens of Our Visual Capabilities,<br>and Find What You Love to Create</P>
+            <a href="" class="hero-btn a">Visit Us To Know More</a>
+        </div>
+        </section>
+        <!--what u will get-->
+        <section class="dichvu">
+            <h1 class="a">Service</h1>
+            <p class="a">Our service will bring you peace of mind and happiness</p>
+        <div class="row">
+            <div class="dichvu-col">
+                <h3 class="a">Fast</h3>
+                <p class="a">We always try to bring customers the fastest products</p>
+            </div>
+
+            <div class="dichvu-col">
+                <h3 class="a">Good Price</h3>
+                <p class="a">Quality products but extremely good prices</p>
+            </div>
+            <div class="dichvu-col">
+                <h3 class="a">Friendly</h3>
+                <p class="a">Always listen to customer feedback with a positive attitude</p>
+            </div>
+        </div>
+        </section>
+        <!--campus-->
+        <section class="campus">
+            <h1 class="a">Our Designs Are Available</h1>
+            <p class="a">The following 3 things</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./image/dacbiet.jpg" class="b">
+                    <div class="layer">
+                        <h3 class="a">SPECIFIC</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./image/de.jpg" class="b">
+                    <div class="layer">
+                        <h3 class="a">MEASURABLE</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./image/1111.jpg" class="b">
+                    <div class="layer">
+                        <h3 class="a">TREND</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--we also have-->
+        <section class="have">
+            <h1 class="a">We Also Have</h1>
+            <p class="a">the following</p>
+            <div class="row">
+                <div class="have-col">
+                    <img src="./image/sangtao.jpg" class="b"></img>
+                    <h3 class="a">Creation</h3>
+                    <p class="a">Bringing customers the most unique products.</p>
+                </div>
+                <div class="have-col">
+                    <img src="./image/chamchi.jpg" class="b"></img>
+                    <h3 class="a">Diligence  </h3>
+                    <p class="a">Always update the latest trends. To have the best product.</p>
+                </div>
+                <div class="have-col">
+                    <img src="./image/haa.jpg" class="b"></img>
+                    <h3 class="a">Meticulousness</h3>
+                    <p class="a">We are dedicated to each product we make.</p>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <section class="us">
+            <h4 class="a">About Us</h4>
+            <p class="a">If you have any other questions, please contact us via the social networking sites below</p>
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=61551646509754"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="https://www.instagram.com/apads.werbung/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-envelope text-dark mx-1"></i></a>
+            </div>
+            <p>Make with <i class="bi bi-heart"> by APAds</i></p>
+        </section>
+        <script>
+            let nav = document.getElementById("navlinks");
+
+            function showMenu() {
+                nav.style.right ="0";
+            }
+            function hideMenu() {
+                nav.style.right ="-200px";
+            }
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
